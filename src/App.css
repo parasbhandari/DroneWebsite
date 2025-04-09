@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #0f334c;
+  --secondary-color: #f26122;
+  --background-color: #eaf6ff;
+  --font-montserrat: "Montserrat", serif;
+}
+
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+  font-family: var(--font-montserrat);
+  list-style-type: none;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0px auto;
+  background-color: var(--background-color);
+}
+
+.wrapper {
+  width: 1300px;
+  margin: 0px auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .wrapper {
+    width: 90%;
+  }
+}

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Keyframes as a top-level rule */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
+.main-content {
+  margin-left: 250px; /* Same as sidebar width */
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
